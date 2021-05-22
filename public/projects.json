@@ -1,0 +1,28 @@
+{
+  "projects" : [
+    {
+      "title": "front-end todo app",
+      "subtitle": "personal project",
+      "githubLink": "https://github.com/dotNATE/io_to_do_app",
+      "liveLink": "https://dotnate.github.io/io_to_do_app/",
+      "description": "This is a personal project that I started in my spare time. Currently, it’s written in Vanilla JS with Handlebars and fairly basic HTML and CSS. I hope to implement new tools, technologies and techniques as my knowledge grows.",
+      "imageLink": "public/images/todo-project-dark.png"
+    },
+    {
+      "title": "typescript web application",
+      "subtitle": "iO Academy aptitude test",
+      "githubLink": "https://github.com/iO-Academy/aptitude-test",
+      "liveLink": "https://aptitude-test.dev.io-academy.uk/",
+      "description": "This project was part of the course I took with iO Academy. We were tasked, as two separate, agile teams of 8, to add functionality to a legacy application written in Typescript. I worked on implementing Bootstrap modals throughout the app, adding functionality to the user journey experienced whilst completing the test (using Typescript), and some minor bug fixes.",
+      "imageLink": "public/images/io-aptitude-test-project.png"
+    },
+    {
+      "title": "OOP PHP web application",
+      "subtitle": "‘SOLID properties’",
+      "githubLink": "https://github.com/iO-Academy/2021-mar-propertyLookup",
+      "liveLink": "https://dev.io-academy.uk/projects/2021-march/solidproperties/",
+      "description": "This was another group project where I and my team (8 in total) were required to design an application from the ground up that adhered to SOLID principles. We designed a class structure/architecture as a team and worked to implement this using PHP with a minimal front-end, constructed with HTML5 and CSS (using SASS, with a Gulp compiler).",
+      "imageLink": "public/images/solid-properties-project.png"
+    }
+  ]
+}

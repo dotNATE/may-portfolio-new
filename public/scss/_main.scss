@@ -3,7 +3,7 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   height: fit-content;
-  min-height: 100vh;
+  min-height: calc(100vh - 4rem);
   padding: 3rem;
   color: white;
   background-color: $bgColor;

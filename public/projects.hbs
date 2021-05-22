@@ -1,0 +1,13 @@
+{{#each projects}}
+<article class="projectContainer">
+    <img src="{{imageLink}}" alt="">
+    <h3>{{title}}</h3>
+    <div class="projectLinks">
+        <a href="{{githubLink}}">GitHub repo</a>
+        <a href="{{liveLink}}">Live Version</a>
+    </div>
+    <div class="projectDescription">
+        <p>{{description}}</p>
+    </div>
+</article>
+{{/each}}
