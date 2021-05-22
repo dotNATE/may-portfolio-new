@@ -9,6 +9,7 @@
 # resources
 
  - [Google Fonts](https://fonts.google.com/)
+ - [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
 
 # gulp setup
 

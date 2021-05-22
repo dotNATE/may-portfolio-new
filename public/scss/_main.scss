@@ -1,0 +1,38 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 36rem;
+  padding: 0 3rem;
+  color: white;
+  background-color: $bgColor;
+  font-family: 'Raleway', sans-serif;
+  & h1 {
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    line-height: 1.3;
+    margin: 0;
+  }
+  & p {
+    letter-spacing: .1rem;
+    line-height: 1.4;
+    width: 70ch;
+  }
+  & a {
+    height: 2.5rem;
+    width: 16rem;
+    position: relative;
+    left: 4rem;
+    background-color: #2b0875;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
