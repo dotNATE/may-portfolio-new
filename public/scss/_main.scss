@@ -2,25 +2,27 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 36rem;
-  padding: 0 3rem;
+  height: fit-content;
+  min-height: 100vh;
+  padding: 3rem;
   color: white;
   background-color: $bgColor;
   & h1 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
     line-height: 1.3;
-    margin: 0;
+    margin: 3rem 0;
   }
   & p {
     letter-spacing: .1rem;
     line-height: 1.4;
-    width: 100ch;
+    max-width: 100ch;
     margin-bottom: 1rem;
   }
   & a {
     height: 2.5rem;
     width: 16rem;
+    margin-top: 1rem;
     position: relative;
     left: 3rem;
     background-color: #2b0875;

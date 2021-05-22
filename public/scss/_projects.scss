@@ -5,15 +5,17 @@
 .projectContainer {
   display: grid;
   grid-template-areas:
-    "img img img title title title"
-    "img img img desc desc desc"
-    "img img img desc desc desc"
-    "img img img . . links";
+        "img img img title title title"
+        "img img img desc desc desc"
+        "img img img desc desc desc"
+        "img img img . . links";
   padding: 1rem;
   grid-column-gap: 15px;
   grid-row-gap: 11px;
   border: 1px solid gray;
+  margin: 0 auto;
   margin-bottom: 1rem;
+  max-width: 1400px;
   & img {
     grid-area: img;
     width: 20rem;
