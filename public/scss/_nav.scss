@@ -6,5 +6,6 @@ nav {
   align-items: center;
   & a {
     @include link(white, $bgColor);
+    margin-right: 1rem;
   }
 }

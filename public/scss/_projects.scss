@@ -6,13 +6,14 @@
   display: grid;
   grid-template-areas:
     "img img img title title title"
-    "img img img links links links"
-    "img img img desc desc ."
-    "img img img desc desc .";
+    "img img img desc desc desc"
+    "img img img desc desc desc"
+    "img img img . . links";
   padding: 1rem;
   grid-column-gap: 15px;
   grid-row-gap: 11px;
   border: 1px solid gray;
+  margin-bottom: 1rem;
   & img {
     grid-area: img;
     width: 20rem;
