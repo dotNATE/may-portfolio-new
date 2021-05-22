@@ -1,0 +1,20 @@
+nav {
+  background-color: $bgColor;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  & a {
+    color: white;
+    display: flex;
+    height: 2.5rem;
+    padding: 0 1rem;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $bgColor;
+    &:hover {
+      border: 2px solid white;
+    }
+  }
+}
