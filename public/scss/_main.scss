@@ -30,6 +30,8 @@ main {
     align-items: center;
     color: white;
     opacity: 0.8;
+    transition-duration: 350ms;
+    transition-timing-function: ease-in-out;
     &:hover {
       opacity: 1;
     }

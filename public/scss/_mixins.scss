@@ -6,6 +6,8 @@
   padding: 0 1rem;
   align-items: center;
   border: 2px solid $baseBgColor;
+  transition-duration: 350ms;
+  transition-timing-function: ease-in-out;
   &:hover {
     border: 2px solid $textColor;
   }
