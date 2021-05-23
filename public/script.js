@@ -1,7 +1,7 @@
 const projectGallery = document.querySelector('#projectGallery');
 
 async function displayProjects() {
-    let handlebars = await fetch('public/projects.hbs')
+    let handlebars = await fetch('public/projects-card.hbs')
     let template = await handlebars.text()
     let html = Handlebars.compile(template)
     let fetchData = await fetch('public/projects.json')

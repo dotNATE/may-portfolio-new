@@ -1,67 +1,17 @@
-@media only screen and (max-width: 1047px) {
+@media only screen and (max-width: 820px) {
+  html {
+    font-size: 14px;
+  }
   #projectGallery {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-
-  .projectContainer {
-    grid-template-areas:
-        "img"
-        "links"
-        "title"
-        "desc";
-    max-width: 400px;
-    & img, & .projectLinks {
-      margin: 0 auto;
-    }
-  }
 }
 
-@media only screen and (max-width: 913px) {
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 12px;
+  }
   #projectGallery {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .projectContainer {
-    grid-template-areas:
-        "title"
-        "img"
-        "links";
-    & p {
-      display: none;
-    }
+    grid-template-columns: 1fr;
   }
 }
-
-@media only screen and (max-width: 613px) {
-  nav {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 563px) {
-  #aboutMe3 {
-    display: none;
-  }
-  .projectContainer {
-    grid-template-areas:
-      "img title"
-      "img links";
-    & img {
-      width: 10rem;
-    }
-    & h3 {
-      font-size: 1.1rem;
-      letter-spacing: 0.05rem;
-    }
-  }
-}
-
-@media only screen and (max-width: 563px) {
-  .projectContainer {
-    padding-top: 1rem;
-    & img {
-      display: none;
-    }
-  }
-}
-

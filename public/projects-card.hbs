@@ -1,0 +1,13 @@
+{{#each projects}}
+<div class="card">
+    <img class="card-img-top" src="{{imageLink}}" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">{{title}}</h5>
+        <p class="card-text">{{description}}</p>
+        <div class="projectLinks">
+            <a href="{{githubLink}}" target="_blank">GitHub repo</a>
+            <a href="{{liveLink}}" target="_blank">Live Version</a>
+        </div>
+    </div>
+</div>
+{{/each}}
