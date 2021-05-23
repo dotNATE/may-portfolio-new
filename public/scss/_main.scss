@@ -22,21 +22,23 @@ main {
   & a {
     height: 2.5rem;
     width: 16rem;
-    margin-top: 1rem;
-    position: relative;
-    left: 3rem;
-    background-color: #2b0875;
-    border: none;
-    border-radius: 5px;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    position: relative;
+    left: 3rem;
+    margin-top: 1rem;
+    background-color: #2b0875;
+    border: none;
     opacity: 0.8;
+    border-radius: 5px;
     transition-duration: 350ms;
     transition-timing-function: ease-in-out;
     &:hover {
       opacity: 1;
+      color: white;
+      text-decoration: none;
     }
   }
 }

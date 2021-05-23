@@ -1,14 +1,16 @@
 @mixin link($textColor, $baseBgColor) {
+  height: 2.5rem;
   color: $textColor;
   display: flex;
   justify-content: center;
-  height: 2.5rem;
   padding: 0 1rem;
   align-items: center;
   border: 2px solid $baseBgColor;
   transition-duration: 350ms;
   transition-timing-function: ease-in-out;
   &:hover {
+    color: $textColor;
     border: 2px solid $textColor;
+    text-decoration: none;
   }
 }
