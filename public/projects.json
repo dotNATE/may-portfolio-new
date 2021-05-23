@@ -23,6 +23,14 @@
       "liveLink": "https://dev.io-academy.uk/projects/2021-march/solidproperties/",
       "description": "This was another group project where I and my team (8 in total) were required to design an application from the ground up that adhered to SOLID principles. We designed a class structure/architecture as a team and worked to implement this using PHP with a minimal front-end, constructed with HTML5 and CSS (using SASS, with a Gulp compiler).",
       "imageLink": "public/images/solid-properties-project.png"
+    },
+    {
+      "title": "Javascript API book collection",
+      "subtitle": "",
+      "githubLink": "https://github.com/dotNATE/io_api_book_practice",
+      "liveLink": "https://dotnate.github.io/io_api_book_practice/",
+      "description": "",
+      "imageLink": "public/images/api_book_app.png"
     }
   ]
 }
