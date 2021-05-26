@@ -29,7 +29,7 @@
       "subtitle": "",
       "githubLink": "https://github.com/dotNATE/io_api_book_practice",
       "liveLink": "https://dotnate.github.io/io_api_book_practice/",
-      "description": "",
+      "description": "This is a totally front-end build that uses a simple api request to the Open Library API. It's put together using vanilla Javascript, Handlebars, HTML5, and CSS3.",
       "imageLink": "public/images/api_book_app.png"
     }
   ]
