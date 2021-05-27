@@ -42,7 +42,7 @@
       "githubLink": "https://github.com/dotNATE/slim-practice",
       "liveVersionExists": 0,
       "liveLink": "",
-      "description": "This application was built as part of my iO Academy course. I used the Slim framework to structure this simple todo app, borrowing some styling ideas from my front-end todo app. The templates use a mix os HTML5 and CSS3 (compiled from SCSS using Gulp).",
+      "description": "This application was built as part of my iO Academy course. I used the Slim framework to structure this simple todo app, borrowing some styling ideas from my front-end todo app. The templates use a mix of HTML5 and CSS3 (compiled from SCSS using Gulp).",
       "imageLink": "public/images/PHP_MVC_Slim_app.png"
     }
   ]
