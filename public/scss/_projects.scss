@@ -15,5 +15,6 @@
   & a {
     @include link(black, white);
     font-size: .9rem;
+    white-space: nowrap;
   }
 }
