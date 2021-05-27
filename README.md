@@ -2,9 +2,10 @@
 
 # tools
 
- - HTML5 & CSS3 (compiled from SCSS using gulp)
- - Javascript ES6
- - Desktop-first workflow
+- HTML5 & CSS3 (compiled from SCSS using gulp)
+- Javascript ES6
+- Desktop-first workflow
+- Handlebars (to display project cards)
 
 # resources
 
