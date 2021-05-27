@@ -6,7 +6,10 @@
         <p class="card-text">{{description}}</p>
         <div class="card-links">
             <a href="{{githubLink}}" target="_blank">GitHub repo</a>
-            <a href="{{liveLink}}" target="_blank">Live Version</a>
+            {{#if liveVersionExists}}
+                <a href="{{liveLink}}">Live Version</a>
+            {{else}} <a class="noLink">No Live Version</a>
+            {{/if}}
         </div>
     </div>
 </div>
