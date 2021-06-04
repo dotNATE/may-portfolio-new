@@ -9,6 +9,11 @@
   grid-row-gap: 1rem;
 }
 
+.card-body {
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr;
+}
+
 .card-links {
   display: flex;
   justify-content: center;
