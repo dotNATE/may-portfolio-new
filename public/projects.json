@@ -1,6 +1,15 @@
 {
   "projects" : [
     {
+      "title": "MERN stack banking app & API",
+      "subtitle": "personal project",
+      "githubLink": "https://github.com/dotNATE/io_to_do_app",
+      "liveVersionExists": 0,
+      "liveLink": "",
+      "description": "This is an in progress project as part of my course with iO Academy. Currently, I'm building a mock back-end banking API using Node, Express and MongoDB; next week I'll be using React, and other tools, to build the front end",
+      "imageLink": "public/images/mern_app_screen.png"
+    },
+    {
       "title": "front-end todo app",
       "subtitle": "personal project",
       "githubLink": "https://github.com/dotNATE/io_to_do_app",
@@ -10,7 +19,7 @@
       "imageLink": "public/images/todo-project-dark.png"
     },
     {
-      "title": "typescript web application",
+      "title": "Typescript web application",
       "subtitle": "iO Academy aptitude test",
       "githubLink": "https://github.com/iO-Academy/aptitude-test",
       "liveVersionExists": 1,
@@ -29,7 +38,7 @@
     },
     {
       "title": "Javascript API book collection",
-      "subtitle": "",
+      "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/io_api_book_practice",
       "liveVersionExists": 1,
       "liveLink": "https://dotnate.github.io/io_api_book_practice/",
@@ -38,7 +47,7 @@
     },
     {
       "title": "PHP MVC Slim application",
-      "subtitle": "",
+      "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/slim-practice",
       "liveVersionExists": 0,
       "liveLink": "",
