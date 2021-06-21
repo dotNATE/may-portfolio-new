@@ -1,14 +1,34 @@
 {
   "projects" : [
     {
-      "title": "MERN banking app & API",
+      "title": "Node/Express Restaurant Orders API",
+      "subtitle": "iO Full Stack Track project",
+      "githubLink": "https://github.com/dotNATE/2021-mar-restaurant-api",
+      "liveVersionExists": 0,
+      "liveLink": "",
+      "description": "For this project I was working as a team of 4 iO students. From the ground up, and using our own choice of tech, methodology and design, our team built a fully functioning restaurant orders API using Node/Express. This was a particularly challenging project as another team needed to consume our API for a separate front-end project that was being built simultaneously.",
+      "imageLink": "public/images/restaurant-api-screen.png",
+      "tech": ["mongodb", "express", "node", "api", "javascript", "greenfield", "team", "agile", "scrum"]
+    },
+    {
+      "title": "Recursive Typescript React App",
+      "subtitle": "personal project, tech exercise",
+      "githubLink": "https://github.com/dotNATE/react-days-until",
+      "liveVersionExists": 0,
+      "liveLink": "",
+      "description": "This is a small application I've been building in React as an exercise in my spare time. It utilises atomic design, recursion and React hooks to display buttons that pass state around the app.",
+      "imageLink": "public/images/react-days-until-screen.png",
+      "tech": ["react", "node", "react-hooks", "react-recursion", "recursion", "typescript", "greenfield", "solo", "atomic-design"]
+    },
+    {
+      "title": "Node/Express Banking API",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/chameleons_banking_app_practice",
       "liveVersionExists": 0,
       "liveLink": "",
-      "description": "This is an in progress project as part of my course with iO Academy. Currently, I'm building a mock back-end banking API using Node and Express in a Controller/Service pattern, MongoDB, and a Jest test suite; next week I'll be using React, and other tools, to build the front end.",
+      "description": "This is an in progress project as part of my course with iO Academy. Currently, I'm building a mock back-end banking API using Node and Express in a Controller/Service pattern, MongoDB, and a Jest test suite.",
       "imageLink": "public/images/mern_app_screen.png",
-      "tech": ["mongodb", "express", "node", "react", "api", "jest", "javascript", "greenfield", "solo"]
+      "tech": ["mongodb", "express", "node", "api", "jest", "javascript", "greenfield", "solo"]
     },
     {
       "title": "Front-end todo app",
@@ -51,7 +71,7 @@
       "tech": ["javascript", "typescript", "html", "css", "api", "greenfield", "handlebars", "solo"]
     },
     {
-      "title": "PHP MVC Slim application",
+      "title": "PHP MVC Slim todo app",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/slim-practice",
       "liveVersionExists": 0,
