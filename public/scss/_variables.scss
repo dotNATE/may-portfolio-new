@@ -1,1 +1,5 @@
 $bgColor: rgba(119, 54, 255, 1);
+$bgMidLight: rgba(140,85,255,1);
+$bgHighlight: rgba(152,103,255,1);
+
+$bgRadial: radial-gradient(at bottom right, $bgHighlight 0%, $bgMidLight 45%, $bgColor 100%);

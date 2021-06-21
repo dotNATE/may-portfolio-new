@@ -1,11 +1,14 @@
 nav {
-  background-color: $bgColor;
+  position: absolute;
+  top: 0;
+  background: transparent;
   height: 4rem;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   & a {
-    @include link(white, $bgColor);
+    @include link(white, transparent);
     margin-right: 1rem;
   }
 }

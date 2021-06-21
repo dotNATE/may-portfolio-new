@@ -1,6 +1,6 @@
 footer {
   padding: 3rem;
-  background-color: $bgColor;
+  background: $bgRadial;
   & h2 {
     color: white;
   }
@@ -11,7 +11,7 @@ footer {
     width: 50%;
     margin: 0 auto;
     & a {
-      @include link(white, $bgColor);
+      @include link(white, transparent);
     }
   }
 }

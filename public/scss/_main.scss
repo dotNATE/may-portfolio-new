@@ -3,10 +3,10 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   height: fit-content;
-  min-height: calc(100vh - 4rem);
-  padding: 3rem;
+  min-height: 100vh;
+  padding: 7rem 3rem 3rem 3rem;
   color: white;
-  background-color: $bgColor;
+  background: $bgRadial;
   & h1 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
