@@ -1,6 +1,16 @@
 {
   "projects" : [
     {
+      "title": "Laravel Twitter-Style App",
+      "subtitle": "personal project",
+      "githubLink": "https://github.com/dotNATE/laravel-practice-setup",
+      "liveVersionExists": 0,
+      "liveLink": "",
+      "description": "This is a brand new, purely back-end project that I've started working on in my spare time since finishing the course with iO Academy. I was interested in learning Laravel, and a few YouTube tutorials soon turned into me building a little twitter-style app.",
+      "imageLink": "public/images/laravel-twitter-screen.png",
+      "tech": ["php", "laravel", "blade", "javascript", "greenfield", "solo"]
+    },
+    {
       "title": "Node/Express Restaurant Orders API",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/2021-mar-restaurant-api",
@@ -31,7 +41,7 @@
       "tech": ["mongodb", "express", "node", "api", "jest", "javascript", "greenfield", "solo"]
     },
     {
-      "title": "Front-end todo app",
+      "title": "Front-End Todo App",
       "subtitle": "personal project",
       "githubLink": "https://github.com/dotNATE/io_to_do_app",
       "liveVersionExists": 1,
@@ -41,7 +51,7 @@
       "tech": ["javascript", "html", "css", "scss", "gulp", "greenfield", "solo"]
     },
     {
-      "title": "Typescript web application",
+      "title": "Typescript Web Application",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/iO-Academy/aptitude-test",
       "liveVersionExists": 1,
@@ -51,7 +61,7 @@
       "tech": ["javascript", "typescript", "html", "css", "agile", "scrum", "legacy app", "team"]
     },
     {
-      "title": "OOP PHP web application",
+      "title": "OOP PHP Web Application",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/iO-Academy/2021-mar-propertyLookup",
       "liveVersionExists": 1,
@@ -61,7 +71,7 @@
       "tech": ["php", "oop", "html", "css", "greenfield", "handlebars", "team", "architecture design"]
     },
     {
-      "title": "Javascript API book collection",
+      "title": "Javascript API Book Collection",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/io_api_book_practice",
       "liveVersionExists": 1,
@@ -71,7 +81,7 @@
       "tech": ["javascript", "typescript", "html", "css", "api", "greenfield", "handlebars", "solo"]
     },
     {
-      "title": "PHP MVC Slim todo app",
+      "title": "PHP MVC Slim Todo App",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/slim-practice",
       "liveVersionExists": 0,
