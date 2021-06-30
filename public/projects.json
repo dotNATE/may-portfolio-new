@@ -14,8 +14,8 @@
       "title": "Node/Express Restaurant Orders API",
       "subtitle": "iO Full Stack Track project",
       "githubLink": "https://github.com/dotNATE/2021-mar-restaurant-api",
-      "liveVersionExists": 0,
-      "liveLink": "",
+      "liveVersionExists": 1,
+      "liveLink": "https://2021-mar-restaurant-api.dev.io-academy.uk/dishes",
       "description": "For this project I was working as a team of 4 iO students. From the ground up, and using our own choice of tech, methodology and design, our team built a fully functioning restaurant orders API using Node/Express. This was a particularly challenging project as another team needed to consume our API for a separate front-end project that was being built simultaneously.",
       "imageLink": "public/images/restaurant-api-screen.png",
       "tech": ["mongodb", "express", "node", "api", "javascript", "greenfield", "team", "agile", "scrum"]
