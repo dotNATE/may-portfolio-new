@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, p, a {
   font-family: 'Raleway', sans-serif;
 }
@@ -33,7 +37,7 @@ a {
     content: '';
     position: absolute;
     left: -3px;
-    bottom: -1px;
+    bottom: -2px;
     height: 9px;
     width: 106%;
     opacity: 0.3;
