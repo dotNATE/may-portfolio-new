@@ -24,3 +24,30 @@ a {
 .noLink {
   opacity: 0.6;
 }
+
+.textLink {
+  color: white;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 250ms ease-in;
+  }
+
+  &:hover {
+    color: white;
+    text-decoration: none;
+    &::before {
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+  }
+}
