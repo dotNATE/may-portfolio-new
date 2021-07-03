@@ -32,10 +32,12 @@ a {
   &::before {
     content: '';
     position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 100%;
+    left: -3px;
+    bottom: -1px;
+    height: 9px;
+    width: 106%;
+    opacity: 0.3;
+    border-radius: 2px;
     background-color: white;
     transform: scaleX(1);
     transform-origin: left;
