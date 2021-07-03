@@ -11,7 +11,7 @@ footer {
     width: 50%;
     margin: 0 auto;
     & a {
-      @include link(white, transparent);
+      @include link(white);
     }
   }
 }

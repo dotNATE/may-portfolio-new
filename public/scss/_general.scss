@@ -25,10 +25,6 @@ a {
   text-decoration: none;
 }
 
-.noLink {
-  opacity: 0.6;
-}
-
 .textLink {
   color: white;
   position: relative;
@@ -48,7 +44,8 @@ a {
     transition: transform 250ms ease-in;
   }
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     color: white;
     text-decoration: none;
     &::before {

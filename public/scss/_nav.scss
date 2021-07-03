@@ -8,7 +8,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   & a {
-    @include link(white, transparent);
+    @include link(white);
     margin-right: 1rem;
   }
 }

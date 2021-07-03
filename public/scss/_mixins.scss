@@ -1,16 +1,16 @@
-@mixin link($textColor, $baseBgColor) {
+@mixin link($color) {
   height: 2.5rem;
-  color: $textColor;
+  color: $color;
   display: flex;
   justify-content: center;
   padding: 0 1rem;
   align-items: center;
-  border: 2px solid $baseBgColor;
+  border: 2px solid transparent;
   transition-duration: 350ms;
   transition-timing-function: ease-in-out;
-  &:hover {
-    color: $textColor;
-    border: 2px solid $textColor;
+  &:hover,
+  &:focus-visible {
+    border: 2px solid $color;
     text-decoration: none;
   }
 }

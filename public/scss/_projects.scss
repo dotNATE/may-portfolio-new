@@ -18,8 +18,12 @@
   display: flex;
   justify-content: center;
   & a {
-    @include link(black, white);
+    @include link(black);
     font-size: .9rem;
     white-space: nowrap;
+    &.noLink {
+      opacity: 0.6;
+      border-color: transparent;
+    }
   }
 }
